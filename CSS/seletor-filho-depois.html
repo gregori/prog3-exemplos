@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Seletor de Filho</title>
+<style>
+/* qualquer elemento article que é um filho direto de um section, ou seja,
+   qualquer article cujo "pai" imediato é um section */
+section > article {
+  color: green;
+  font-size: 24px;
+}
+
+/* qualquer elemento h2 que é um filho direto de um section, ou seja, qualquer
+   h2 cujo "pai" imediato é um section */
+section > h2 {
+  color: green;
+}
+</style>
+</head>
+<body>
+<h1>Seletor de Filho</h1>
+<section>
+  <h2>Subheading 1</h2>
+  <div>
+    <article>ARTICLE que esta dentro de um DIV, que está dentro de um SECTION</article>
+  </div>
+</section>
+<section>
+  <article>ARTICLE que e um filho direto de um elemento SECTION.</article>
+</section>
+<h2>Subheading 2</h2>
+
+</body>
+</html>
