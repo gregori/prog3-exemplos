@@ -19,3 +19,5 @@ Códigos de exemplo para a disciplina de Programação 3 da Católica SC.
 
 1. [Sintaxe do CSS](CSS/sintaxe-css.html)
 1. [Seletores simples](CSS/seletores-simples)
+1. [Seletores de elementos + classes](CSS/elemento-classe-depois.html)
+1. [Seletores descendentes](CSS/seletor-descendente-depois.html)
