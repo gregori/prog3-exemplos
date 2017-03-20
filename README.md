@@ -33,4 +33,5 @@ Códigos de exemplo para a disciplina de Programação 3 da Católica SC.
 1. [Floating](CSS/floating-depois.html)
 1. [Leiaute duas colunas](CSS/duas-colunas-depois.html)
 1. [Posicionando Elementos](CSS/positioning-depois.html)
-1. [Media Queries][CSS/media-queries-depois.html]
+1. [Media Queries](CSS/media-queries-depois.html)
+1. [Leiaute Responsivo](CSS/responsivo-depois.html)
