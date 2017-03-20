@@ -28,3 +28,4 @@ Códigos de exemplo para a disciplina de Programação 3 da Católica SC.
 1. [Conflitos de Especificidade](CSS/especificidade.html)
 1. [Formatação de Texto](CSS/estilo-texto-depois.html)
 1. [Tamanho da Fonte](CSS/tamanho-fonte-depois.html)
+1. [Box-model](CSS/box-model-depois.html)
