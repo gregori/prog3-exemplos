@@ -23,3 +23,6 @@ Códigos de exemplo para a disciplina de Programação 3 da Católica SC.
 1. [Seletores descendentes](CSS/seletor-descendente-depois.html)
 1. [Seletores de pseudo-classes](CSS/seletor-pseudo-classes.html)
 1. [Onde escrever os estilos?](CSS/style-placement.html)
+1. [Conflitos de Origem](CSS/origem.html)
+1. [Conflitos de Herança](CSS/heranca.html)
+1. [Conflitos de Especificidade](CSS/especificidade.html)
