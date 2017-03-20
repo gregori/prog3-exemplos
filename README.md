@@ -30,3 +30,5 @@ Códigos de exemplo para a disciplina de Programação 3 da Católica SC.
 1. [Tamanho da Fonte](CSS/tamanho-fonte-depois.html)
 1. [Box-model](CSS/box-model-depois.html)
 1. [Background](CSS/background-depois.html)
+1. [Floating](CSS/floating-depois.html)
+1. [Leiaute duas colunas](CSS/duas-colunas-depois.html)
