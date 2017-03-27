@@ -5,7 +5,33 @@
   <title>Seletores de Pseudo-Classes</title>
   <style>
     /* Os estilos vêm aqui. */
+   header li {
+    list-style: none;
+   }
 
+   a:link, a:visited {
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid black;
+    color: black;
+    display: block;
+    width:  200px;
+    text-align: center;
+    margin-bottom: 1px;
+   }
+   a:hover, a:active {
+    background-color:  red;
+    color:  white;
+   }
+
+   section div:nth-child(odd) {
+    background-color:  gray;
+   }
+
+   section div:nth-child(4):hover {
+    background-color: green;
+    cursor: pointer;
+   }
 
   </style>
 </head>
@@ -20,6 +46,14 @@
     </ul>
   </header>
 
+  <section>
+    <div>DIV 1</div>
+    <div>DIV 2</div>
+    <div>DIV 3</div>
+    <div>DIV 4</div>
+    <div>DIV 5</div>
+    <div>DIV 6</div>
+   </section>
   <section>
     <div>DIV 1</div>
     <div>DIV 2</div>

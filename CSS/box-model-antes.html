@@ -4,12 +4,20 @@
 <meta charset="utf-8">
 <title>O Box Model</title>
 <style>
+* {
+	box-sizing:  border-box;
+}
 body {
   background-color: gray;
+  margin:  0;
 }
 
 #box {
   background-color: blue;
+  padding: 10px 30px 10px 30px;
+  border: 20px solid black;
+  margin: 40px;
+  width: 300px;
 }
 #content {
   background-color: #90EE90; /*green*/
