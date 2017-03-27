@@ -40,3 +40,6 @@ Códigos de exemplo para a disciplina de Programação 3 da Católica SC.
 
 1. [Introdução ao Bootstrap](Bootstrap/IntroducaoBootstrap/index.html)
 1. [Grids Bootstrap](Bootstrap/Grid/grid-depois.html)
+1. [Confecção do Cabeçalhi](Bootstrap/Header/index.html)
+1. [Início Menu Responsivo](Bootstrap/BotaoMenu/index.html)
+1. [Menu Responsivo](Bootstrap/Menu1/index.html)
