@@ -45,3 +45,9 @@ Códigos de exemplo para a disciplina de Programação 3 da Católica SC.
 1. [Menu Responsivo](Bootstrap/Menu1/index.html)
 1. [Itens na Tela Principal](Bootstrap/ItensTelaPrincipal/index.html)
 1. [Rodapé (footer)](Bootstrap/Footer/index.html)
+
+## JavaScript
+
+1. [Arrays](JS/arrays/index.html)
+1. [Namespaces](JS/namespaces/index.html)
+
