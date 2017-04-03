@@ -1,5 +1,11 @@
-nome = "Rodrigo";
+var aloRodrigo = (function() {
+  var nome = "Rodrigo";
 
-function digaAlo() {
-    console.log("Alo " + nome);
-}
+  return {
+      digaAlo: digaAlo
+  };  
+
+  function digaAlo() {
+      console.log("Alo " + nome);
+  }
+})();

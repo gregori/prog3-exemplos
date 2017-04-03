@@ -1,5 +1,11 @@
-nome = "Zé";
+var oiZe = (function() {
+  var nome = "Zé";
 
-function digaOi() {
-  console.log("Oi " + nome);
-}
+  return {
+      digaOi: digaOi
+  };
+
+  function digaOi() {
+    console.log("Oi " + nome);
+  }
+})();

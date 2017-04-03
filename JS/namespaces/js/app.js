@@ -1,4 +1,7 @@
-digaAlo();
-digaOi();
+aloRodrigo.digaAlo();
+oiZe.digaOi();
 
-console.log("Olá " + nome);
+(function (nome) {
+  console.log("Olá " + nome);
+})("Rodrigo");
+
