@@ -53,3 +53,4 @@ Códigos de exemplo para a disciplina de Programação 3 da Católica SC.
 1. [DOM](JS/dom/index.html)
 1. [Eventos e argumentos](JS/eventos/index.html)
 1. [Ajax 1](JS/ajax1/index.html)
+1. [Ajax 2](JS/ajax2/index.html)

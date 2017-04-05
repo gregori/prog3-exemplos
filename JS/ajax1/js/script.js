@@ -2,13 +2,13 @@
 document.addEventListener("DOMContentLoaded",
   function (event) {
     
-    // Unobtrusive event binding
+    // tratamento de evento não obstrusivo
     document.querySelector("button")
       .addEventListener("click", function () {
         
         // Chamar servidor para obter o nome
         $ajaxUtils
-          .sendGetRequest("data/nome.txt", 
+          .sendGetRequest("data/nomes.txt", 
             function (response) {
               var nome = response.responseText;
 

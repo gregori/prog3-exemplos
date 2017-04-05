@@ -23,11 +23,11 @@ function getRequestObject() {
 
 
 // Faz uma requisição Ajax GET para 'requestUrl'
-function sendGetRequest(requestUrl, responseHandler) {
+function sendGetRequest(requestUrl, responseHandler, isJsonResponse) {
     var request = getRequestObject();
     request.onreadystatechange = 
       function() { 
-        handleResponse(request, responseHandler); 
+        handleResponse(request, responseHandler, isJsonResponse); 
       };
     request.open("GET", requestUrl, true);
     request.send(null); // só serve para POST
@@ -38,10 +38,20 @@ function sendGetRequest(requestUrl, responseHandler) {
 // se a resposta estiver pronta
 // e não for um erro
 function handleResponse(request,
-                        responseHandler) {
+                        responseHandler, isJsonResponse) {
   if ((request.readyState == 4) &&
      (request.status == 200)) {
-    responseHandler(request);
+    // padrao é isJsonResponse = true
+    if (isJsonResponse == undefined) {
+      isJsonResponse = true;
+    }
+    // se receber um JSON, faz o parse
+    if (isJsonResponse) {
+      responseHandler(JSON.parse(request.responseText));
+    }
+    else { // senao entrega o texto como vem
+      responseHandler(request.responseText);
+    }
   }
 }
 
