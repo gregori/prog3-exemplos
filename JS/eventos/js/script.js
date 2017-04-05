@@ -29,13 +29,20 @@ document.addEventListener("DOMContentLoaded",
     document.querySelector("button")
       .addEventListener("click", digaOi);
 
+   // Mostra a posição xy do mouse se shift estiver
+   // pressionado
+   /* document.querySelector("body")
+      .addEventListener("mousemove",
+        function (event) {
+          if (event.shiftKey === true) {
+            console.log("x: " + event.clientX);
+            console.log("y: " + event.clientY);
+          }
+        }
+      );*/
+
   }
 );
-
-
-// Outra forma de atribuir o evento "onclick"
-// document.querySelector("button")
-//   .onclick = digaOi;
 
 
 

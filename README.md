@@ -51,3 +51,4 @@ Códigos de exemplo para a disciplina de Programação 3 da Católica SC.
 1. [Arrays](JS/arrays/index.html)
 1. [Namespaces](JS/namespaces/index.html)
 1. [DOM](JS/dom/index.html)
+1. [Eventos e argumentos](JS/eventos/index.html)
